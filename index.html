@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phase 0 Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <img src="img/title.png" alt="title.png" class="title">
+    <div class="inputForm">
+        <div class="textForm">  
+            <p>Check Palindrome</p> <br>
+            <form action="checkPal">
+                <input type="text" name="txtNum" id="txtNum" placeholder="Enter number or text!!">
+            </form>
+            <button class="button1" onclick="Alert.render()" >Check</button>
+            <p id="generateText">Generate Palindrome<br>(Number)</p>
+            <form action="generatePal">
+                <p id="to">To :</p>
+                <p id="from">From :</p>
+                <input type="number" name="inputFrom" id="inputFrom">
+                <input type="number" name="inputTo" id="inputTo">
+            </form>
+            <button class="button2" onclick="Alert2.render()">Generate</button>
+        </div>
+    </div>
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+        <div>
+            <div id="dialogboxhead"></div>
+            <div id="dialogboxbody"></div>
+            <div id="dialogboxfoot"></div>
+        </div>
+    </div>
+</body>
+</html>
