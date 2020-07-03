@@ -23,13 +23,11 @@ body {
     font-family: 'Poppins', sans-serif;
     display: inline;
     margin-top: 10px;
-    /* margin-left: 25%; */
     color: gold;
 }
 
 #generateText {
-    margin-top: 20%;
-    /* position: absolute; */
+    margin-top: 23%;
 }
 
 #txtNum {
@@ -54,8 +52,8 @@ body {
     border-radius: 5px;
     color: black;
     font-family: 'Holtwood One SC', serif;
-    position: absolute;
-    top: 35%;
+    position: fixed;
+    top: 47%;
     left: 40%;
     cursor: pointer;
 }
@@ -68,7 +66,7 @@ body {
     position: absolute;
     left: 33%;
     top: 68.5%;
-    width: 50px;
+    width: 70px;
     height: 8%;
     background-color: rgba(0, 0, 0, 80%);
     border: none;
@@ -87,7 +85,7 @@ body {
     position: absolute;
     left: 72%;
     top: 68.5%;
-    width: 50px;
+    width: 70px;
     height: 8%;
     background-color: rgba(0, 0, 0, 80%);
     border: none;
@@ -104,7 +102,7 @@ body {
     border-radius: 5px;
     color: black;
     font-family: 'Holtwood One SC', serif;
-    position: absolute;
+    position: fixed;
     top: 85%;
     left: 40%;
     cursor: pointer;
